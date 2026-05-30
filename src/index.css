@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Edu+QLD+Hand:wght@400..700&family=Michroma&family=Orbitron:wght@400..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+  --font-caprasimo: "Caprasimo", serif;
+  --font-michroma:  "Michroma", sans-serif;
+  --font-edu:       "Edu QLD Hand", cursive;
+  --font-orbitron:  "Orbitron", sans-serif;
+  --font-rubik:     "Rubik", sans-serif;
+}
