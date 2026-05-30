@@ -1,16 +1,90 @@
-# React + Vite
+# Foody - Premium Food Delivery & E-Commerce Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project Overview
 
-Currently, two official plugins are available:
+Developed **Foody**, a premium full-stack food delivery and e-commerce platform, enabling users to browse, customize, and order food items with real-time order tracking and seamless payment integration.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+### Key Features
 
-## React Compiler
+- **Interactive Food Catalog**: Dynamic product listing with detailed descriptions, ratings, and images
+- **Personalized User Experience**: User authentication and profile management for saved preferences
+- **Real-time Order Management**: Live order status tracking with push notifications
+- **Responsive Design**: Optimized for desktop, tablet, and mobile devices with smooth animations
+- **Secure Checkout**: Integrated payment gateway with multiple payment options
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Technical Highlights
 
-## Expanding the ESLint configuration
+- **Frontend Architecture**: Built a responsive, component-driven React application using Vite for lightning-fast development and optimized production builds
+- **State Management**: Leveraged Redux Toolkit for centralized state management, ensuring consistent data flow across the application
+- **UI/UX Enhancement**: Implemented smooth animations and transitions using Framer Motion for enhanced user engagement
+- **Styling**: Utilized Tailwind CSS for rapid, utility-first UI development with consistent design patterns
+- **Authentication**: Integrated Clerk for secure user authentication and session management
+- **Performance Optimization**: Configured Vite with Hot Module Replacement (HMR) for instant feedback during development
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tech Stack
+
+- **Frontend Framework**: React
+- **Build Tool**: Vite
+- **Styling**: Tailwind CSS
+- **State Management**: Redux Toolkit
+- **Animation**: Framer Motion
+- **Authentication**: Clerk
+- **HTTP Client**: Axios
+- **Language**: JavaScript/JSX
+- **Package Manager**: npm
+
+## Project Structure
+
+```
+Frontend/
+├── src/
+│   ├── Components/      # Reusable UI components
+│   ├── assets/          # Images and static assets
+│   ├── App.jsx          # Main application component
+│   ├── index.css        # Global styles
+│   └── main.jsx         # Application entry point
+├── public/              # Static public assets
+├── package.json         # Project dependencies
+├── vite.config.js       # Vite configuration
+└── eslint.config.js     # ESLint configuration
+```
+
+## Getting Started
+
+### Prerequisites
+- Node.js (v14 or higher)
+- npm or yarn
+
+### Installation
+
+```bash
+npm install
+```
+
+### Development Server
+
+```bash
+npm run dev
+```
+
+The application will be available at `http://localhost:5173`
+
+### Build for Production
+
+```bash
+npm run build
+```
+
+### Preview Production Build
+
+```bash
+npm run preview
+```
+
+## Contributing
+
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+## License
+
+This project is licensed under the MIT License.
